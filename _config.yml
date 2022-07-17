@@ -52,7 +52,7 @@ sougou_site_verification:
 menu:
   home: / || fas fa-home
   # archives: /archives/ || fas fa-folder-open
-  # categories: /categories/ || fas fa-layer-group
+  categories: /categories/ || fas fa-layer-group
   # tags: /tags/ || fas fa-tags
   # You can add a secondary menu like follow.
   # xxx1: javascript:; || fa(s|r|l|d|b) fa-xxx
@@ -142,7 +142,7 @@ header:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: https://i.imgur.com/87hGxti.jpeg
+    url: /assets/banner.jpg
   # Mask effect of the background image.
   mask:
     enable: false
