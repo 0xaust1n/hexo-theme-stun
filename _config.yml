@@ -51,7 +51,7 @@ sougou_site_verification:
 # Select your icon name, see: https://fontawesome.com/icons
 menu:
   home: / || fas fa-home
-  # archives: /archives/ || fas fa-folder-open
+  archives: /archives/ || fas fa-folder-open
   categories: /categories/ || fas fa-layer-group
   # tags: /tags/ || fas fa-tags
   # You can add a secondary menu like follow.
@@ -286,7 +286,7 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: ./assets/avatar.jpg
+    url: /assets/avatar.jpg
     # If true, the avatar would be displayed in a circle.
     rounded: true
     # Opacity of avatar (value: 0 ~ 1)
@@ -356,7 +356,7 @@ codeblock:
   style: default
   # The theme of code highlight.
   # Optional values: light | dark | ocean
-  highlight: ocean
+  highlight: dark
   # Whether to wrap when code overflow.
   word_wrap: false
 
@@ -745,7 +745,7 @@ gallery_waterfall:
 # Lazy load the images of post.
 # See: https://github.com/tuupola/lazyload
 lazyload:
-  enable: false
+  enable: true
   # Optional values: gif | block
   placeholder: gif
 
@@ -838,7 +838,7 @@ tag_cloud:
 # Eliminate the old version of IE browser (IE6~11).
 # See: https://support.dmeng.net/upgrade-your-browser.html
 kill_old_ie:
-  enable: false
+  enable: true
   # The URL of warning page (Please use "" to wrap the value).
   # ! ----------------------------------------------------------------
   # ! Usually you don't need to set this option, just use the default.
