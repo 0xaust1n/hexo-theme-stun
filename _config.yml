@@ -51,7 +51,7 @@ sougou_site_verification:
 # Select your icon name, see: https://fontawesome.com/icons
 menu:
   home: / || fas fa-home
-  archives: /archives/ || fas fa-folder-open
+  # archives: /archives/ || fas fa-folder-open
   # categories: /categories/ || fas fa-layer-group
   # tags: /tags/ || fas fa-tags
   # You can add a secondary menu like follow.
@@ -133,16 +133,16 @@ header:
   enable: true
   show_on:
     # Whether to show on the article page.
-    post: true
+    post: false
   # If you set a percentage, it will be calculated based on the height of screen (Supports all CSS units)
-  height: 80%
+  height: 38%
   # Background image of site header.
   bg_image:
-    enable: false
+    enable: true
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url:
+    url: https://i.imgur.com/87hGxti.jpeg
   # Mask effect of the background image.
   mask:
     enable: false
@@ -155,7 +155,7 @@ header:
     bg_color: "#333"
   # The icon that prompts the user to pull down.
   scroll_down_icon:
-    enable: false
+    enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
     name: fas fa-angle-down
     animation: true
@@ -196,35 +196,35 @@ footer:
   mask:
     enable: false
     # Opacity of mask (value: 0 ~ 1)
-    opacity: 0.5
+    opacity: 0.8
   # Copyright information.
   copyright:
-    enable: true
+    enable: false
     # If not set, will be used `author` from Hexo main config (e.g. liuyib All Rights Reserved)
-    text:
+    text: "Austin"
     # Start time. If not set, the current year will be used.
     since:
     # End time. If not set, the current year will be used.
     end:
   # The icon between the copyright and the owner.
   icon:
-    enable: true
+    enable: false
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
-    name: fas fa-heart
+    name: fa fa-heart
     # Heartbeat animation.
     animation: false
     # (Please use "" to wrap the value)
-    color: "#ff0000"
+    color: "#00ff00"
   # Hexo link
   powered:
-    enable: true
+    enable: false
     # Whether to show version after Hexo link (e.g. vX.X.X)
-    version: true
+    version: false
   # Theme link
   theme:
-    enable: true
+    enable: false
     # Whether to show version after theme link (e.g. vX.X.X)
-    version: true
+    version: false
   # Beian information for Chinese users, see: http://www.miitbeian.gov.cn/
   beian:
     enable: false
@@ -233,11 +233,11 @@ footer:
   # Any custom text (e.g. Hosted by <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>)
   custom:
     enable: false
-    text:
+    text: <span>RE-Coding My Life</span>
 
 # Creative Commons 4.0 International License
 creative_commons:
-  enable: true
+  enable: false
   # Optional values: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND
   # For details, please see: https://creativecommons.org/share-your-work/licensing-types-examples/
   license: BY-NC-SA
@@ -286,16 +286,16 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/icons/stun-logo.svg
+    url: ./assets/avatar.jpg
     # If true, the avatar would be displayed in a circle.
-    rounded: false
+    rounded: true
     # Opacity of avatar (value: 0 ~ 1)
     opacity: 1
     # Mouse hover animation
     # Optional values: turn | shake
-    animation: turn
+    animation: false
   # Your favorite motto.
-  motto: hello world
+  motto: Austin Kuo
 
 # Social links
 # Value before `||` is the target link, value after `||` is the name of FontAwesome icon.
@@ -304,19 +304,12 @@ author:
 # If you can`t find a suitable icon, you can choose to display text by adding the `origin:` prefix.
 # e.g. `origin:sf`, so `sf` will be displayed.
 social:
-  github: https://github.com/ || fab fa-github
-  google: https://plus.google.com/ || fab fa-google
-  twitter: https://twitter.com/ || fab fa-twitter
-  youtube: https://youtube.com/ || fab fa-youtube
-  # segmentfault: https://segmentfault.com/ || origin:sf
-  # weibo: https://weibo.com/ || fab fa-weibo
-  # zhihu: https://www.zhihu.com/ || origin:知
-  # wechat: yournumber || fab fa-weixin
-  # telegram: yournumber || fab fa-telegram
-  # qq: yournumber || fab fa-qq
+  github: https://github.com/0xaust1n || fab fa-github-alt
+  linkedin: https://www.linkedin.com/in/austin-kuo-14a643191 || fab fa-linkedin
+  email: mailto:yo861015@gmail.com|| fa fa-envelope
 
 social_setting:
-  enable: false
+  enable: true
   # Only show by icon.
   icon_only: true
 
@@ -363,7 +356,7 @@ codeblock:
   style: default
   # The theme of code highlight.
   # Optional values: light | dark | ocean
-  highlight: light
+  highlight: ocean
   # Whether to wrap when code overflow.
   word_wrap: false
 
@@ -384,15 +377,15 @@ reward:
 # The information of post.
 post_meta:
   # Only show by icon.
-  icon_only: false
+  icon_only: true
   # The create time of post.
   created:
     enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
-    icon: far fa-calendar-plus
+    icon: far fa-calendar-check
   # The update time of post.
   updated:
-    enable: true
+    enable: false
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
     icon: far fa-calendar-check
   # The approximate reading time of post.
